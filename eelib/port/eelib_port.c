@@ -15,3 +15,9 @@ int EELib_UART_Receive(uint8_t *pData, uint16_t Size)
 	while(!(__HAL_UART_GET_FLAG(&huart1, UART_FLAG_RXNE) == SET)){}
 	HAL_UART_Receive_DMA(&huart1, pData, Size);
 }
+
+int EELib_LCD_ShowChar(uint16_t x, uint16_t y, uint8_t size, uint8_t mode, uint16_t PointColor)
+{
+	
+}
+
