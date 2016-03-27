@@ -33,7 +33,7 @@ PUTCHAR_PROTOTYPE
 		return ch;
 	}
 	
-	EELib_LCD_ShowChar(lcdprintf.CurrentColumn * lcdprintf.FontSize / 2, lcdprintf.CurrentRow * lcdprintf.FontSize, ch, lcdprintf.FontSize, 0, 0x0000);
+	EELib_LCD_ShowChar(lcdprintf.CurrentColumn * lcdprintf.FontSize_Width, lcdprintf.CurrentRow * lcdprintf.FontSize_Height, ch, lcdprintf.FontSize_Height, 0, 0x0000);
 	lcdprintf.CurrentColumn++;
   return ch;
 }
