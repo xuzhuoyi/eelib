@@ -1,8 +1,5 @@
 #include <time.h>
-void exit(int status)
-{
 
-}
 
 int system(const char * string)
 {

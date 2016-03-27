@@ -23,3 +23,7 @@ int EELib_LCD_ShowChar(uint16_t x, uint16_t y, uint8_t Char, uint8_t Size, uint8
 	LCD_ShowChar(x, y, Char, Size, Mode);
 }
 
+void exit(int status)
+{
+
+}
